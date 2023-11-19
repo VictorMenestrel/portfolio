@@ -1,0 +1,354 @@
+.custom-font-title{
+  /* engineering student */
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 130px;
+line-height: 145px;
+text-align: center;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+
+
+}
+
+@font-face {
+  font-family: 'Mona Sans';
+  src: URL('../font/Mona-Sans.ttf') format('truetype');
+}
+
+.custom-font-navbar{
+  /* VICTOR MENESTREL */
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 700;
+
+line-height: 23px;
+letter-spacing: -0.085em;
+
+
+}
+
+.custom-bg{
+  background-image: url("../image/image15.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.custom-bg-2{
+  background-color: #1F1F1F;
+}
+
+.custom-bg-3{
+  background-color: #4B4B4B;
+}
+
+
+/* I am Victor Ménestrel, I am French and I study systems engineering and innovation. */
+.custom-whoIam{
+  
+  font-family: 'Mona Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 62px;
+  
+  color: #FFFFFF;
+}
+
+.custom-getintouch{
+  /* Get in touch. */
+
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 96px;
+line-height: 93px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFDB5E;
+
+}
+
+.custom-letsgettoknow{
+  /* Let's get to know each other. */
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 64px;
+line-height: 62px;
+/* identical to box height */
+text-align: center;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.custom-bottom{
+  /* All rights reserved 2023 © Victor Ménestrel - Website made by hand */
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+.custom-gold-color{
+  color: #FFDB5E;
+}
+
+.custom-gold-color-outline{
+  outline-color: #FFDB5E;
+}
+
+.custom-gold-color_hover:hover{
+  color: #FFDB5E;
+}
+
+.custom-thin-text{
+  /* work experience */
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 11.5px;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+.custom-bold-text{
+  /* Monitoring Tool Development */
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 19.5px;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+font-stretch: 115;
+
+
+}
+
+@media (max-width: 1024px ){
+  .custom-bold-text{
+    font-size: 12px;
+    line-height: 11.5px;
+  }
+  .custom-thin-text{
+    font-size: 8px;
+    line-height: 7.5px;
+  }
+  .custom-whoIam{
+    font-size: 26px;
+    line-height: 31px;
+  }
+  .custom-font-title{
+    font-size: 95px;
+    line-height: 100px;
+  }
+}
+
+
+@media (max-width: 768px ){
+  .custom-font-title{
+    font-size: 65px;
+    line-height: 72.5px;
+  }
+  .custom-bottom{
+    font-size: 12px;
+    line-height: 12px;
+  }
+  .custom-letsgettoknow{
+    font-size: 32px;
+    line-height: 31px;
+  }
+  .custom-getintouch{
+    font-size: 48px;
+    line-height: 42px;
+  }
+}
+
+
+@media (max-width: 640px ){
+  .custom-font-title{
+    font-size: 50px;
+    line-height: 60px;
+  }
+.custom-whoIam{
+  font-size: 13px;
+  line-height: 15px;
+}  
+}
+
+html{scroll-behavior:smooth}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #3e3e3e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 0.5rem; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+
+.vibrate-1 {
+	-webkit-animation: vibrate-1 5s ease-in-out infinite both;
+	        animation: vibrate-1 5s ease-in-out infinite both;
+}
+
+.vibrate-2 {
+	-webkit-animation: vibrate-1 7s ease-in-out infinite both;
+	        animation: vibrate-1 7s ease-in-out infinite both;
+}
+
+@keyframes bgappear {
+	0% {
+		background-size: 125vmax 125vmax;
+	}
+
+	100% {
+		background-size: 100vmax 100vmax;
+	}
+}
+
+.bgappear{
+  animation: bgappear 1s ease 0s 1 normal forwards;
+}
+
+.animation-fade{
+  animation: fade 1s ease 0s 1 normal forwards;
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.content-tel::-webkit-scrollbar{
+  display:none;
+  color: #1d1d1d;
+}
+
+.content-tel:hover::-webkit-scrollbar-thumb{
+  display:block;
+}
+
+
+.aspect-ratio-container {
+  width: 100%;
+  max-width: 264px;
+  position: relative;
+}
+
+.content-tel {
+  padding-top: calc(571 / 264 * 100%); /* Calcul de l'aspect ratio */
+  position: relative;
+  overflow: auto;
+}
+
+.content-tel img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  max-width: none;
+  top: 0;
+  left: 0;
+}
+
+b{
+  color: #FFDB5E;
+  font-weight: 700;
+}

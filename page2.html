@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+
+	<title>Victor Ménestrel - Portfolio</title>
+    <link rel="shortcut icon" href="image/ico.ico">
+	<link rel="stylesheet" href="dist/style.css">
+    <link rel="stylesheet" href="dist/styleManuel.css">
+    <link rel="stylesheet" href="dist/page1style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="custom-bg-2">
+    <!-- nave bar-->
+    <section class="text-white flex gap-5 lg:gap-10 custom-font-navbar fixed left-0 right-0 font-bold top-0 backdrop-blur-md pl-10 p-5 text-xs sm:text-lg lg:text-2xl z-20">
+        <a class="justify-start cursor-pointer custom-gold-color_hover" href="index.html#home">VICTOR	&nbsp;	&nbsp;MENESTREL</a>
+        <div class="flex gap-5 lg:gap-10 justify-end pr-8 flex-1">
+            <a class="cursor-pointer custom-gold-color_hover" href="index.html#home">HOME</a>
+            <a class="cursor-pointer custom-gold-color_hover" href="index.html#project">PROJECTS</a>
+            <a class="cursor-pointer custom-gold-color_hover" href="index.html#about">ABOUT</a>
+            <a class="cursor-pointer custom-gold-color_hover" href="index.html#contact">CONTACT</a>
+        </div>
+    </section>
+
+    <!-- titre & sous titre-->
+    <section class=" pt-52 flex flex-col animation-fade">
+        <div id="page1titre" class="m-auto h-auto whitespace-pre-line text-3xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl">Organization
+            web  development</div>
+        <div id="page1sous-titre" class="pt-6 m-auto h-auto whitespace-pre-line text-lg md:text-xl lg:text-2xl xl:text-3xl">Front  end  development</div>
+    </section>
+
+    <!-- partie 1-->
+    <section class="custom-bg-2 grid grid-cols-1 lg:grid-cols-2 gap-8 pt-28 animation-fade overflow-hidden">
+        <div class="flex items-center vibrate-1">
+            <img src="image/page2image1.png" alt="" draggable="false" class="w-auto mx-auto">
+        </div>
+        <div class="flex items-center">
+            <div id="text1" class="text-base md:text-lg lg:text-xl xl:text-2xl lg:mr-24 p-8 lg:text-left text-justify">As President of GSILab association, I embarked on enhancing its prominence within my engineering school by creating a website. Utilizing Figma for prototyping and Visual Studio Code for HTML/CSS coding with Tailwind, I spotlighted the laser cutters, 3D printers, CNCs, and the fablab's proximity to the school.</div>
+        </div>
+    </section>
+    <!-- partie 2-->
+    <section class="custom-bg-2 grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-8 pt-28 animation-fade overflow-hidden">
+        <div class="flex items-center lg:order-first order-last col-span-2 lg:col-span-1">
+            <div id="text1" class="lg:text-right text-base md:text-lg lg:text-xl xl:text-2xl lg:ml-14 lg:-mr-14 p-8 text-justify">Tailwind expedited CSS development, while responsive design ensured cross-device compatibility. User-friendliness and improved user experience were integral to design considerations. The website adheres to WCAG standards for accessibility, embracing inclusivity for visually impaired users. The project's open-source nature on GitHub reinforces transparency and accessibility.</div>
+        </div>
+        <div class="flex items-center vibrate-2 justify-center ml-10 sm:ml-0">
+            
+            <div class="aspect-ratio-container pointer-events-none">
+                <img src="image/phone 1.png" draggable="false" alt="" class="w-full absolute z-0">
+                <div class="content-tel rounded-3xl scale-95 scrollable-div">
+                    <img src="image/Group 69.png" draggable="false" alt="">
+                </div>
+                
+            </div>
+        </div>
+        <div class="flex items-center vibrate-1">
+            <img src="image/Group 68.png" draggable="false" alt="" class="w-3/4 md:w-1/2 lg:w-2/3 xl:w-3/4 mx-auto">
+        </div>
+    </section>
+    <!-- partie 3-->
+    <section class="custom-bg-2 grid grid-cols-1 lg:grid-cols-2 gap-8 pt-28 animation-fade overflow-hidden">
+        <div class="flex items-center">
+            <img src="image/image 26.png" draggable="false" alt="" class="w-auto mx-auto">
+        </div>
+        <div class="flex items-center">
+            <div id="text1" class="text-base md:text-lg lg:text-xl xl:text-2xl lg:mr-24 p-8 lg:text-left text-justify">The resulting webpage elegantly presents the essence of the fablab.
+
+                <br><br>Incorporating Blender-rendered visuals enriched the user interface, amplifying the site's visual appeal and comprehensibility.
+                
+                <br><br>This project encapsulates my adeptness in designing, coding, and accessibility practices, amplifying the association's exposure and impact.</div>
+        </div>
+    </section>
+    <!-- end -->
+    <section class="flex gap-5 flex-row justify-center custom-bg-2 pt-10 pb-10 items-center animation-fade">
+        <div class="custom-bottom">All rights reserved 2023 © Victor Ménestrel - Website made by hand</div>
+    </section>
+    
+
+</body>
+<script>    
+    const scrollableDiv = document.querySelector('.scrollable-div');
+    const mainContent = window;
+    
+
+    mainContent.addEventListener('scroll', () => {
+        const maxScrollMain = document.body.scrollHeight - mainContent.innerHeight;
+        const maxScrollDiv = scrollableDiv.scrollHeight - scrollableDiv.clientHeight;
+        const scrollAdjust =  mainContent.scrollY
+        const scrollRatio = scrollAdjust / maxScrollMain * 1.5 -0.5;
+        const targetScroll = scrollRatio * maxScrollDiv;
+        scrollableDiv.scrollTop = targetScroll;
+    });
+</script>
+</html>
+

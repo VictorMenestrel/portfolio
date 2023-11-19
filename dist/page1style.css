@@ -1,0 +1,55 @@
+#page1titre{
+  /* electromagnetic poles display */
+
+position: relative;
+
+
+font-family: 'Mona-Sans';
+font-style: normal;
+font-weight: 700;
+
+
+text-align: center;
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+font-stretch: 115;
+
+
+}
+
+#page1sous-titre{
+  /* software development */
+
+position: relative;
+
+font-family: 'Mona Sans';
+font-style: normal;
+font-weight: 500;
+/* identical to box height */
+letter-spacing: -0.085em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+}
+
+#text1{
+/* During my second year in engineering school, I coded an electromagnetic calculus software in Java. It is composed of a graphical canva and a settings panel to adapt the display according to the user's needs. */
+
+position: relative;
+
+font-family: 'Mona-Sans';
+font-style: normal;
+font-weight: 700;
+
+line-height: 107.7%;
+/* or 39px */
+
+color: #FFFFFF;
+
+
+}
+
