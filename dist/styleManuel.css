@@ -67,15 +67,22 @@ letter-spacing: -0.085em;
 font-family: 'Mona Sans';
 font-style: normal;
 font-weight: 800;
-font-size: 96px;
-line-height: 93px;
+font-size: 46px;
+line-height: 43px;
 /* identical to box height */
 text-align: center;
-letter-spacing: -0.085em;
 text-transform: uppercase;
 
 color: #FFDB5E;
 
+}
+
+.custom-font-getintouch{
+  font-family: 'Mona Sans';
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFDB5E;
+  font-weight: 800;
 }
 
 .custom-letsgettoknow{
@@ -84,11 +91,11 @@ color: #FFDB5E;
 font-family: 'Mona Sans';
 font-style: normal;
 font-weight: 800;
-font-size: 64px;
-line-height: 62px;
+font-size: 44px;
+line-height: 42px;
 /* identical to box height */
 text-align: center;
-letter-spacing: -0.085em;
+/*letter-spacing: -0.085em;*/
 text-transform: uppercase;
 
 color: #FFFFFF;
@@ -187,8 +194,8 @@ font-stretch: 115;
     line-height: 31px;
   }
   .custom-getintouch{
-    font-size: 48px;
-    line-height: 42px;
+    font-size: 28px;
+    line-height: 32px;
   }
 }
 
