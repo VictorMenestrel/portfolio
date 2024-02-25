@@ -1349,7 +1349,7 @@ document.addEventListener('keydown', function(event) {
 
 
 // Obtenir un accès à la caméra de l'appareil
-navigator.mediaDevices.getUserMedia({ video: true })
+navigator.mediaDevices.getUserMedia({ video: { facingMode: { exact: "environment" }} })
     .then(function(stream) {
         video.srcObject = stream;
         video.play();
